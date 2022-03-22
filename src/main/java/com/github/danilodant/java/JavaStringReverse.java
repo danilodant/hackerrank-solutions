@@ -1,4 +1,4 @@
-package com.github.danilodant;
+package com.github.danilodant.java;
 
 import java.util.Scanner;
 
