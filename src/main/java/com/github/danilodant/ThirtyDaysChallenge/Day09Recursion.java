@@ -14,7 +14,7 @@ public class Day09Recursion {
 
       int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-      int result = Result.factorial(n);
+      int result = ResultDay09.factorial(n);
 
       bufferedWriter.write(String.valueOf(result));
       bufferedWriter.newLine();
@@ -25,10 +25,9 @@ public class Day09Recursion {
       e.printStackTrace();
     }
   }
-
 }
 
-class Result {
+class ResultDay09 {
 
   /*
    * Complete the 'factorial' function below.

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-class Result {
+class ResultDay02 {
 
     /*
      * Complete the 'solve' function below.
@@ -40,7 +40,7 @@ public class Day02Operators {
 
         int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
 
-        Result.solve(meal_cost, tip_percent, tax_percent);
+        ResultDay02.solve(meal_cost, tip_percent, tax_percent);
 
         bufferedReader.close();
     }
